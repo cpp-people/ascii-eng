@@ -1,4 +1,8 @@
+#include "headers.h"
+#include "Interpreter.h"
 #include "Game.h"
+
+#include <cstdio>
 
 Game::Game() 
     : window(sf::VideoMode(800, 600), "teste")
@@ -20,14 +24,13 @@ void Game::run()
                 break;
 
             default:
+                printf("%d\n",eval(""));
                 break;
             }
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
 			    window.close();
         }
-        
     }
-    
 }
 
 Game::~Game()

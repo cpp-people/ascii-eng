@@ -1,2 +1,7 @@
+#ifndef HEADERS_H
+#define HEADERS_H
+
 #include <iostream>
-#include "interpreter.h"
+#include <string>
+
+#endif // HEADERS_H

@@ -19,5 +19,4 @@ private:
     // variables
     sf::RenderWindow        window;
 
-    
 };
